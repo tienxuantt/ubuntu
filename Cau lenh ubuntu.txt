@@ -1,0 +1,22 @@
+ssh root@64.44.167.181
+htop: xem core va ram
+apt update: update he dieu hanh
+apt upgrade: install ban cap nhat
+reboot: khoi dong lai
+free -h: xem dung luong RAM
+df -h: xem dung luong o dia
+lsb_release -a: Kiem tra phien ban
+apt list --installed: kiem tra cac ban da cai dat
+su - admin: switch user admin
+adduser admin: Tao moi user
+deluser admin: Xoa user
+ufw app list: Tuong lua
+ufw status: Kiem tra tuong lua
+
+nginx:
+	apt install nginx: cai dat nginx
+	systemctl status nginx: Kiem tra nginx
+	service nginx status/stop/start/restart
+	
+	
+	
