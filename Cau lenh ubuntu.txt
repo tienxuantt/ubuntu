@@ -40,3 +40,4 @@ server {
 }	
 
 https://www.youtube.com/watch?v=1sdaPoXWQrw
+https://fullstack.edu.vn/courses/windows-terminal-wsl

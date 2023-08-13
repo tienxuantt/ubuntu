@@ -38,3 +38,5 @@ server {
                 try_files $uri $uri/ =404;
         }
 }	
+
+https://www.youtube.com/watch?v=1sdaPoXWQrw
