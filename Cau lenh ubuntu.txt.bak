@@ -48,3 +48,13 @@ Tạo:		mkdir xuan
 Tạo file:	touch xuan.html
 Copy:		cp xuan xuan2
 Mở file:	nano index.html
+
+
+ 	@	A	64.44.167.181	0	
+ 	@	MX	mail.ntxuan.click	10	
+ 	@	TXT	v=spf1 mx a ip4:64.44.167.181 ~all	0	
+ 	mail	A	64.44.167.181	0	
+ 	login1	CNAME	ntxuan.click	0	
+ 	login2	CNAME	ntxuan.click	0	
+ 	login3	CNAME	ntxuan.click	0	
+

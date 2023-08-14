@@ -58,3 +58,14 @@ Mở file:	nano index.html
  	login2	CNAME	ntxuan.click	0	
  	login3	CNAME	ntxuan.click	0	
 
+curl -s -X GET https://api.cloudflare.com/client/v4/zones/e7b0bd589748125571a7555b06fbdb7d/dns_records?per_page=500 \
+      -H "X-Auth-Email: tienxuantt@gmail.com" \
+      -H "X-Auth-Key: 6b89aff7becc08e0cad55186a1a82e22887e1" \
+      -H "Content-Type: application/json" | jq .result[].id |  tr -d '"' | (
+  while read id; do
+    curl -s -X DELETE https://api.cloudflare.com/client/v4/zones/e7b0bd589748125571a7555b06fbdb7d/dns_records/${id} \
+      -H "X-Auth-Email: tienxuantt@gmail.com" \
+      -H "X-Auth-Key: 6b89aff7becc08e0cad55186a1a82e22887e1" \
+      -H "Content-Type: application/json"
+  done
+  )
