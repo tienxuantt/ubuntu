@@ -43,8 +43,8 @@ https://www.youtube.com/watch?v=1sdaPoXWQrw
 https://fullstack.edu.vn/courses/windows-terminal-wsl
 
 Đổi tên:	mv xuan xuan2
-Xóa:	rm -r xuan
-Tạo:	mkdir xuan
+Xóa:		rm -r xuan
+Tạo:		mkdir xuan
 Tạo file:	touch xuan.html
-Copy:	cp xuan xuan2
+Copy:		cp xuan xuan2
 Mở file:	nano index.html
